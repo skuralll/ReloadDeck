@@ -1,0 +1,11 @@
+{
+  "name": "ReloadDeck",
+  "version": "0.1",
+  "manifest_version": 2,
+  "browser_action": {},
+  "content_scripts": [{
+    "matches": [ "https://tweetdeck.twitter.com/*" ],
+    "js": ["main.js"],
+    "run_at" : "document_end"
+  }]
+}
